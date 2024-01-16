@@ -36,17 +36,6 @@ The API includes the following endpoints:
 - `GET /messages/{gr_id}`: Retrieve messages from a specific group. Give token in Authorization header. 
 - `POST /messages/{gr_id}`: Send a message to a group.  Give details in body {"message": "" }Give token in Authorization header. 
 
-
-## Credentials
-For easy testing you can use this information:
-
-- {user_id} : 8
-- {"display_name"} : gunel
-- {gr_id} : 5
-- {"group_name": "bunq_test"}
-- {"display_name":"gunel","password":"12345"}
-- Authorization token for user with id 8 : 44f129f28da9c43b71229dbca3a126df93a9866ed1a9bb4e76c5eba0557b1d92
-
 ## Prerequisites
 Before using this API, you need to have the following installed:
 
